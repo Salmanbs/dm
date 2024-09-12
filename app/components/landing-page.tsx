@@ -1,3 +1,4 @@
+'use client'
 import { DmLogo } from "../assets/icons/dm-logo";
 import PropertyCard from "./property-card";
 
