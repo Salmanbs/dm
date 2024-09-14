@@ -1,6 +1,7 @@
 import Image from "next/image";
 import image from "@/app/assets/images/image.png";
 import { useState } from "react";
+import DetailCard from "./detail-card";
 
 export default function PropertyCard() {
   const [expandedState, setExpandedState] = useState<boolean>(false);
@@ -49,27 +50,7 @@ export default function PropertyCard() {
         <div className="bg-white text-black px-8 pb-4">
           <p className="text-gray-400 text-[18px]"> CONFIGURATIONS</p>
           <div>
-            <p className="text-[20px] ">APARTMENTS</p>
-            <div className="flex gap-1">
-              <div className="bg-slate-200 rounded-md">
-                <div className="p-2 mr-4">
-                  <p className="font-medium text-[22px]">1 bhk</p>
-                  <p className="text-[22px]">100 sqft</p>
-                </div>
-              </div>
-              <div className="bg-slate-200 rounded-md">
-                <div className="p-2 mr-4">
-                  <p className="font-medium text-[22px]">1 bhk</p>
-                  <p className="text-[22px]">100 sqft</p>
-                </div>
-              </div>
-              <div className="bg-slate-200 rounded-md">
-                <div className="p-2 mr-4">
-                  <p className="font-medium text-[22px]">1 bhk</p>
-                  <p className="text-[22px]">100 sqft</p>
-                </div>
-              </div>
-            </div>
+            <DetailCard />
             <div className="flex justify-end">
               <div
                 className="text-[16px] text-nowrap underline text-zinc-400"
