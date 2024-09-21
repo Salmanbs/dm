@@ -1,0 +1,18 @@
+backgroun -- #F5F5F5
+
+card background -- #FFFFFF
+
+card itema -- #333333
+card itemb -- #333333
+card itemc -- #666666
+card item button -- #666666
+
+card expanded top border -- #F2F2F2
+
+card expanded item header --#999999
+
+card expanded item card bacground -- #F2F2F2
+
+footer header   #000000
+footer sepearator -- #CCCCCC
+footer last line #030303

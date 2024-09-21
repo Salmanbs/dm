@@ -5,14 +5,17 @@ import PropertyCard from "./property-card";
 
 export default function LandingPage() {
   return (
-    <div className="relative">
-      <div className="p-4 bg-zinc-100 h-[100vh] px-[84px]">
+    <div className="flex flex-col min-h-screen">
+      <div className="flex-grow p-4 bg-custom-gray-100  md:px-[84px] overflow-scroll ">
         <div className="flex justify-center mb-2">
           <DmLogo className="fill-black" />
         </div>
         <PropertyCard />
+        <PropertyCard />
+        <PropertyCard />
+        <PropertyCard />
       </div>
-      <div className="absolute bottom-0 w-full">
+      <div className=" w-full">
         <Footer />
       </div>
     </div>
