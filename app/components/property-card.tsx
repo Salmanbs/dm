@@ -54,7 +54,7 @@ export default function PropertyCard() {
       </div>
       {expandedState && (
         <div className="bg-white text-black mx-8 pb-4 border-t border-custom-border-gray-200">
-          <p className="text-custom-gray-400 text-[18px] mt-2">
+          <p className="text-custom-gray-400 text-[12px] md:text-[18px] mt-2">
             CONFIGURATIONS
           </p>
           <div className="mt-1">
